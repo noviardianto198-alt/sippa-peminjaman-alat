@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SIPPA - Sistem Informasi Peminjaman dan Pengembalian Alat">
+    <title>SIPPA - Sistem Peminjaman Alat</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 40px 20px;
+            color: #1e293b;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #00000015;
+        }
+
+        h1 { color: #1d4ed8; }
+        .alat {
+            background: #eff6ff;
+            padding: 18px;
+            border-radius: 8px;
+        }
+
+        .status {
+            color: #15803d;
+            font-weight: bold;
+        }
+
+        @media (max-width: 480px) {
+            body { padding: 20px 12px; }
+            .container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>SIPPA</h1>
+        <h2>Sistem Informasi Peminjaman dan Pengembalian Alat</h2>
+        <p>Aplikasi untuk membantu pencatatan peminjaman dan pengembalian alat.</p>
+        <hr>
+        <h3>Contoh Data Alat</h3>
+        <section class="alat">
+            <p>Nama alat: Multimeter Digital</p>
+            <p>Stok total: 5</p>
+            <p>Sedang dipinjam: 2</p>
+            <p>Stok tersedia: 3</p>
+            <p>Status: <span class="status">Tersedia</span></p>
+        </section>
+    </main>
+</body>
+</html>
