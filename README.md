@@ -2,8 +2,8 @@
 ## Sistem Informasi Peminjaman dan Pengembalian Alat
 
 ### Deskripsi
-SIPPA adalah rancangan aplikasi berbasis web untuk membantu
-pengelolaan data alat, peminjaman, dan pengembalian alat.
+SIPPA adalah sistem informasi untuk mendata alat dan
+mengelola transaksi peminjaman serta pengembalian alat.
 
 ### Tujuan
 - Mempermudah pencatatan data alat.
