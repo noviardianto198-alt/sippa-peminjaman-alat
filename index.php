@@ -1,7 +1,7 @@
 
 <?php
 $namaProyek = "Sistem Informasi Peminjaman dan Pengembalian Alat";
-$namaAlat = "Multimeter";
+$namaAlat = "Multimeter Digital";
 $stokTotal = 5;
 $sedangDipinjam = 2;
 
